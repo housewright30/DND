@@ -1,0 +1,29 @@
+<template name="mess">
+  <div class="contrainer">
+    <div class="jumbotron center">
+      <h1><strong> Messages</strong></h1>
+    </div>
+  </div>
+  {{>save}}
+  {{>sidebar}}
+  {{>exit}}
+</template>
+
+<template name="sidebar" class="sideBar">
+  <div class="sideBar container-fluid">
+  <p>Active Games Go Here</p>
+</div>
+</template>
+
+<template name="save">
+  <div class="bottomLeft">
+    <button type="button" class="btn btn-lg save" id="save"> <strong>Save</strong></button>
+  </div>
+</template>
+
+
+<template name="exit">
+  <div class="bottomRight">
+    <button type="button" class="btn btn-lg exit" id="exit"> <strong>Exit</strong></button>
+  </div>
+</template>
