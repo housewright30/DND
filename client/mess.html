@@ -4,9 +4,8 @@
       <h1><strong> Messages</strong></h1>
     </div>
   </div>
-  {{>save}}
+  {{>botbar}}
   {{>sidebar}}
-  {{>exit}}
 </template>
 
 <template name="sidebar" class="sideBar">
@@ -15,15 +14,8 @@
 </div>
 </template>
 
-<template name="save">
-  <div class="bottomLeft">
-    <button type="button" class="btn btn-lg save" id="save"> <strong>Save</strong></button>
-  </div>
-</template>
-
-
-<template name="exit">
-  <div class="bottomRight">
-    <button type="button" class="btn btn-lg exit" id="exit"> <strong>Exit</strong></button>
-  </div>
+<template name="botbar" class="botbar">
+  <div class="botBar container-fluid">
+  <p>New Games Start Here</p>
+</div>
 </template>

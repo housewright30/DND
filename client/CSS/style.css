@@ -77,6 +77,12 @@ span.showBodyOfDisplayOnHover {
   border-style: double;
 }
 
+.botBar {
+  position: absolute;
+  right: 15%; top: 75%; bottom: 0%; left: 0%;
+  border-style: double;
+}
+
 .bottomLeft {
   position: absolute;
   left: 0%;
@@ -87,4 +93,9 @@ span.showBodyOfDisplayOnHover {
   position: absolute;
   right: 15%;
   bottom: 0%;
+}
+
+.btn-xl {
+  width: auto; height: auto;
+  font-size: 200%;
 }
