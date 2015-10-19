@@ -72,9 +72,17 @@ span.showBodyOfDisplayOnHover {
 }
 
 .sideBar {
-  position: absolute;
-  right: 0%; top: 270px; bottom: 0%; left: 85%;
+  position: fixed;
+  right: 0%; top: 70px; bottom: 0%; left: 85%;
   border-style: double;
+}
+
+.nSideBar {
+  position: absolute;
+  left: auto;
+  right: auto;
+  border-style: solid;
+  border-width: 5px;
 }
 
 .botBar {
@@ -97,5 +105,15 @@ span.showBodyOfDisplayOnHover {
 
 .btn-xl {
   width: auto; height: auto;
-  font-size: 200%;
+  font-size: 250%;
+}
+
+.left-half {
+  left: 0%;
+  right: 50%;
+}
+
+.right-half {
+  left: 50%;
+  right: 15%;
 }
