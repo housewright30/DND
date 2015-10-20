@@ -1,0 +1,28 @@
+<template name="gameS">
+  <div class="contrainer">
+    <div class="center">
+      <h1><strong>Game Slection</strong></h1>
+    </div>
+  </div>
+  {{>startNGame}}
+  {{>sidebar}}
+  {{>fGameb}}
+</template>
+
+<template name="sidebar" class="sideBar">
+  <div class="sideBar container-fluid">
+  <p>Active Games Go Here</p>
+</div>
+</template>
+
+<template name="startNGame" class="startNGame">
+  <div class="container-fluid">
+  <button class="left-half btn-xl bottomLeft newGame" style="width: 50%; height: 15%;"><strong>Start New Games Here</strong></button>
+</div>
+</template>
+
+<template name="fGameb" class="fGameb">
+  <div class="container-fluid">
+  <button class="right-half btn-xl bottomRight fGameb" style="width: 50%; height: 15%;"><strong>Find A Game</strong></button>
+</div>
+</template>

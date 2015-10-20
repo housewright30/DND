@@ -1,0 +1,39 @@
+<template name="newG">
+  <div>
+    <h1 class="center"><strong>New Game Setup</strong></h1>
+    {{>gname}}
+    {{>addP}}
+    {{>save}}
+    {{>exit}}
+  </div>
+</template>
+
+<template name="exit">
+  <div class="bottomRight">
+    <button type="button" class="btn btn-xl exit" id="exit"> <strong>Exit</strong></button>
+  </div>
+</template>
+
+<template name="save">
+  <div class="bottomLeft">
+    <button type="button" class="btn btn-xl save" id="save"> <strong>Save</strong></button>
+  </div>
+</template>
+
+<template name="addP" class="addP">
+  <div class="sideBar container-fluid">
+  <button class="nSideBar center addPlayer">
+    <span class="glyphicon glyphicon-plus left" style="padding: 0px 10px; color: blue; font-size: 130%">
+    </span><b>
+    Add Player</b>
+  </button>
+</div>
+</template>
+
+<template name="gname">
+  <br><br>
+  <div>
+    <p><strong style="font-size: 170%;">Name Game:</strong><input autofocus="{{gname}}" class="left-half" placeholder="Mr. Rogers Neighborhood"></p>
+    <p><strong>GM Name:</strong><input class="left-half" placeholder="Mr. Rogers"></p>
+  </div>
+</template>
