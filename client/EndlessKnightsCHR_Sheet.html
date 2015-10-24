@@ -1,0 +1,37 @@
+<template name="lesscSheet">
+<h1 class="center">{{gamename}}</h1>
+{{>sideInfo}}
+{{>atTable}}
+</template>
+
+<template name="sideInfo">
+<div class="sideBar">
+  <h3>info as its needed</h3>
+</div>
+</template>
+
+<template name="atTable">
+  <table class="table">
+      <thead>
+        <tr>
+          <th class="pull-left">Might</th>
+          <th class="pull-left">Finesse</th>
+          <th class="pull-left">Fortitude</th>
+          <th class="pull-left">Grace</th>
+          <th class="pull-left">Will</th>
+          <th class="pull-left">Psyche</th>
+          </tr>
+        </thead>
+<tbody>
+  <tr>
+          <td class="statCenter"><input type="might" value="{{allBlankCheck}}" id="might" maxlength="2" class="statBox"> </td>
+          <td class="statCenter"><input type="finesse" value="{{allBlankCheck}}" id="finesse" maxlength="2" class="statBox"> </td>
+          <td class="statCenter"><input type="fortitude" value="{{allBlankCheck}}" id="fortitude" maxlength="2" class="statBox"> </td>
+          <td class="statCenter"><input type="grace" value="{{allBlankCheck}}" id="grace" maxlength="2" class="statBox"> </td>
+          <td class="statCenter"><input type="will" value="{{allBlankCheck}}" id="will" maxlength="2" class="statBox"> </td>
+          <td class="statCenter"><input type="psyche" value="{{allBlankCheck}}" id="psyche" maxlength="2" class="statBox"> </td>
+  </tr>
+  </tbody>
+</table>
+</template>
+ 
